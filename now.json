@@ -1,0 +1,23 @@
+{
+  "name": "Really photo",
+  "alias": [
+    "really",
+    "think",
+    "hm",
+    "hmmm",
+    "are-you-sure",
+    "thinking",
+    "debatable"
+  ],
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node-server",
+      "config": { "maxLambdaSize": "42mb" }
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
